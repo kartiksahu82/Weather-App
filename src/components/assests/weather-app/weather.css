@@ -36,6 +36,8 @@ html {
   font-size: 4vh;
   transition: all ease-in-out 0.2s;
   transition-duration: 0.2s;
+  background-color: white;
+  color: rgb(25, 25, 25);
 }
 
 .top input:hover {
