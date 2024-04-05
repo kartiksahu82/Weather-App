@@ -1,0 +1,146 @@
+
+html {
+  background-image: url("/2.jpg");
+  background-size: cover;
+  
+}
+.none {
+  display: none;
+}
+
+.containor {
+  height: 95vh;
+  width: 70vh;
+  margin: auto;
+  border-radius: 20px;
+  background-color: rgb(41, 32, 74);
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 4vh;
+}
+
+.top input {
+  height: 8vh;
+  width: 40vh;
+  outline: none;
+  border-radius: 40px;
+  outline: none;
+  padding-left: 6vh;
+  font-size: 4vh;
+  transition: all ease-in-out 0.2s;
+  transition-duration: 0.2s;
+}
+
+.top input:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.top img {
+  padding: 2.8vh;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  transition: all ease-in-out 0.2s;
+  transition-duration: 0.2s;
+}
+.top img:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+  cursor: pointer;
+}
+
+.bot {
+  justify-content: space-around;
+  display: flex;
+  padding: 6vh;
+  gap: 4vh;
+  color: white;
+}
+
+.last {
+  display: flex;
+  gap: 4vh;
+}
+#mid {
+  gap: 6vh;
+}
+
+.img1 img {
+  margin-bottom: 2vh;
+}
+.city,
+.temp {
+  font-size: 7vh;
+  font-weight: 500;
+  color: white;
+}
+
+.wind,
+.hum {
+  font-size: 4vh;
+}
+
+@media (max-width: 768px) {
+  .containor {
+    gap: 4vh;
+
+    height: 140vh;
+  }
+
+  .none {
+    display: flex;
+    text-align: center;
+    color:#e3e3e3;
+    justify-content: center;
+    margin-top: 6vh;
+    font-style: italic;
+    width: 100%;
+    font-size: 3vh;
+    font-family: 'es', 'Helvetica Neue',;
+  }
+  .top {
+    margin: 2vh;
+  }
+  div{
+    margin-top: 4vh;
+  }
+
+.top .search {
+margin-top: 0; 
+  }
+
+
+ 
+.hum {
+  font-size: 4.5vh;
+  white-space: nowrap;
+  margin-left: 2vh;
+}
+
+.wind {  font-size: 4.5vh;
+margin-left: 5vh;}
+
+
+
+.city,
+.temp {
+  font-size: 10vh;
+  margin-top: 2vh;
+
+  font-weight: 500;
+  color: white;
+}
+.wind-name, .hum-name{
+  font-size: 3vh;
+  margin-top: 6vh;
+  white-space: nowrap;
+}
+
+.last{gap: 0vh;}
+}
