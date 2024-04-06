@@ -57,7 +57,6 @@ const Weather = () => {
   return (
     <div className="containor">
       <div className="none">
-        
         <h1>Weather App</h1>
       </div>
       <div className="top">
